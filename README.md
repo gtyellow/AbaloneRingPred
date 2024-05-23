@@ -7,3 +7,10 @@ Two interesting techniques I used to get a good score:
 
 1.  Combining features such as wight and length to make new features.
 2.  Building ensemble prediction models.  Ensemble prediction models combine multiple models.  For example, you might use a Random tress model paired with lightGBM and use both of their predicitive capablities to get better predictions than what you could get from either model alone.
+
+In this case, I experimented with a number of different models and settled on a model that used the following models:
+
+-HistGradientBoostingRegressor
+-MLPRegressor
+-RandomForestRegressor
+-'ExtraTreesRegressor'
